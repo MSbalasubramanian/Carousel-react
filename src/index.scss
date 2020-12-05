@@ -1,0 +1,28 @@
+@import './Styles/_reset.scss';
+@import './Styles/_variables.scss';
+
+* {
+  box-sizing: border-box;
+}
+
+*::after,
+*::before {
+  box-sizing: inherit;
+}
+
+html {
+  font-size: var(--Font-size);
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  line-height: 1.2;
+  letter-spacing: 0.2rem;
+  margin: 1rem;
+}
+
+.sad {
+  display: flex;
+  justify-self: center;
+  align-items: center;
+}
